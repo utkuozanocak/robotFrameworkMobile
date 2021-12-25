@@ -1,0 +1,100 @@
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/TestCases/testCase1.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageActions/homePageActions.robot' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageObjects/homePageObjects.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/Resources/resource.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageActions/filterPageActions.robot' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageObjects/filterPageObjects.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageActions/productPageActions.robot' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageObjects/productPageObjects.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageActions/basketPageActions.robot' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages
+[ ERROR ] Error in file '/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/PageObjects/basketPageObjects.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python37.zip
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/lib-dynload
+  /Users/uocak/.robocorp/holotree/b1f3c244e_1c0bc041/lib/python3.7/site-packages

@@ -1,0 +1,16 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Test Case 1                                                           | FAIL |
+Setup failed:
+No keyword with name 'Open Application' found.
+
+Also teardown failed:
+No keyword with name 'Close Application' found.
+------------------------------------------------------------------------------
+Tests                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/Output/output.xml
+Log:     /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/Output/log.html
+Report:  /Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/Output/report.html
