@@ -25,3 +25,6 @@
 ## Reports
 
 -	/Output altındadır.
+
+## Video
+- Video altındadır.
