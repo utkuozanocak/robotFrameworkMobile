@@ -20,7 +20,7 @@
 
 - Test case TestCases altında bulunmaktadır.
 
-- /BaseLibrary/baseTest.robot altında, Setup, TearDown işlemleri ve ortak kullanılabilecek özel methodlar bulunmaktadır.
+- /BaseLibrary/baseTest.robot altında, Opan-Close App işlemleri ve ortak kullanılabilecek özel methodlar bulunmaktadır.
 
 ## Reports
 
