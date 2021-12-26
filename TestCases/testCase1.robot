@@ -1,7 +1,7 @@
 *** Settings ***
 Library         AppiumLibrary
 Resource   ../PageActions/homePageActions.robot
-Resource   ../Resources/resource.robot
+Resource   ../BaseLibrary/baseTest.robot
 Resource   ../PageActions/filterPageActions.robot
 Resource   ../PageActions/productPageActions.robot
 Resource   ../PageActions/basketPageActions.robot

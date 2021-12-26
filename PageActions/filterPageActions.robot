@@ -4,7 +4,7 @@ Library      AppiumLibrary
 Library      BuiltIn
 
 Resource     ../PageObjects/filterPageObjects.robot
-Resource     ../Resources/resource.robot
+Resource     ../BaseLibrary/baseTest.robot
 
 *** Keywords ***
 

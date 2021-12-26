@@ -3,7 +3,7 @@
 Library      AppiumLibrary
 Library      BuiltIn
 Resource     ../PageObjects/productPageObjects.robot
-Resource     ../Resources/resource.robot
+Resource     ../BaseLibrary/baseTest.robot
 
 *** Keywords ***
 
