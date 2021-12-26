@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.1 on darwin)" generated="20211226 12:30:16.777" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.10.1 on darwin)" generated="20211226 12:35:29.730" rpa="false" schemaversion="2">
 <suite id="s1" name="testCase1" source="/Users/uocak/Desktop/fireflyCaseStudy/firefly-mobile/TestCases/testCase1.robot">
 <test id="s1-t1" name="Test Case 1">
 <kw name="Open App" library="baseTest" type="SETUP">
@@ -17,14 +17,14 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<status status="PASS" starttime="20211226 12:30:16.946" endtime="20211226 12:30:32.501"/>
+<status status="PASS" starttime="20211226 12:35:29.889" endtime="20211226 12:35:39.745"/>
 </kw>
 <kw name="Close Advertisement Frame" library="baseTest">
 <kw name="Sleep" library="BuiltIn">
 <arg>20s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20211226 12:30:52.503" level="INFO">Slept 20 seconds</msg>
-<status status="PASS" starttime="20211226 12:30:32.502" endtime="20211226 12:30:52.503"/>
+<msg timestamp="20211226 12:35:59.746" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20211226 12:35:39.746" endtime="20211226 12:35:59.747"/>
 </kw>
 <kw name="Run Keyword And Return Status" library="BuiltIn">
 <var>${IsElementVisible}</var>
@@ -34,10 +34,10 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Element Should Be Visible" library="AppiumLibrary">
 <arg>${FRAME_CLOSE_BTN}</arg>
 <doc>Verifies that element identified with locator is visible.</doc>
-<status status="PASS" starttime="20211226 12:30:52.503" endtime="20211226 12:30:54.214"/>
+<status status="PASS" starttime="20211226 12:35:59.747" endtime="20211226 12:36:00.903"/>
 </kw>
-<msg timestamp="20211226 12:30:54.214" level="INFO">${IsElementVisible} = True</msg>
-<status status="PASS" starttime="20211226 12:30:52.503" endtime="20211226 12:30:54.214"/>
+<msg timestamp="20211226 12:36:00.903" level="INFO">${IsElementVisible} = True</msg>
+<status status="PASS" starttime="20211226 12:35:59.747" endtime="20211226 12:36:00.903"/>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <arg>${IsElementVisible}</arg>
@@ -47,14 +47,14 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${FRAME_CLOSE_BTN}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211226 12:30:54.218" level="INFO">Clicking element '//android.widget.ImageButton[@content-desc="close"]'.</msg>
-<status status="PASS" starttime="20211226 12:30:54.215" endtime="20211226 12:30:55.354"/>
+<msg timestamp="20211226 12:36:00.906" level="INFO">Clicking element '//android.widget.ImageButton[@content-desc="close"]'.</msg>
+<status status="PASS" starttime="20211226 12:36:00.904" endtime="20211226 12:36:02.234"/>
 </kw>
-<status status="PASS" starttime="20211226 12:30:54.215" endtime="20211226 12:30:55.354"/>
+<status status="PASS" starttime="20211226 12:36:00.903" endtime="20211226 12:36:02.234"/>
 </kw>
-<status status="PASS" starttime="20211226 12:30:32.501" endtime="20211226 12:30:55.355"/>
+<status status="PASS" starttime="20211226 12:35:39.745" endtime="20211226 12:36:02.234"/>
 </kw>
-<status status="PASS" starttime="20211226 12:30:16.945" endtime="20211226 12:30:55.355"/>
+<status status="PASS" starttime="20211226 12:35:29.888" endtime="20211226 12:36:02.234"/>
 </kw>
 <kw name="Search Product" library="homePageActions">
 <arg>bluetooth kulaklık</arg>
@@ -64,22 +64,22 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${selector}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20211226 12:30:55.356" endtime="20211226 12:30:56.823"/>
+<status status="PASS" starttime="20211226 12:36:02.235" endtime="20211226 12:36:03.194"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${selector}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211226 12:30:56.825" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/textViewSearchBox'.</msg>
-<status status="PASS" starttime="20211226 12:30:56.823" endtime="20211226 12:30:56.935"/>
+<msg timestamp="20211226 12:36:03.197" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/textViewSearchBox'.</msg>
+<status status="PASS" starttime="20211226 12:36:03.195" endtime="20211226 12:36:03.869"/>
 </kw>
-<status status="PASS" starttime="20211226 12:30:55.355" endtime="20211226 12:30:56.935"/>
+<status status="PASS" starttime="20211226 12:36:02.235" endtime="20211226 12:36:03.869"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${SEARCH_BOX_TXT}</arg>
 <arg>${product}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20211226 12:30:56.937" level="INFO">Typing text 'bluetooth kulaklık' into text field 'com.pozitron.hepsiburada:id/etACBSearchBox'</msg>
-<status status="PASS" starttime="20211226 12:30:56.935" endtime="20211226 12:30:59.151"/>
+<msg timestamp="20211226 12:36:03.871" level="INFO">Typing text 'bluetooth kulaklık' into text field 'com.pozitron.hepsiburada:id/etACBSearchBox'</msg>
+<status status="PASS" starttime="20211226 12:36:03.869" endtime="20211226 12:36:05.916"/>
 </kw>
 <kw name="Wait And Click" library="baseTest">
 <arg>${SEARCH_RESULT_LABEL}</arg>
@@ -87,17 +87,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${selector}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20211226 12:30:59.152" endtime="20211226 12:31:00.342"/>
+<status status="PASS" starttime="20211226 12:36:05.917" endtime="20211226 12:36:07.015"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${selector}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211226 12:31:00.345" level="INFO">Clicking element '//android.widget.TextView[@text='kablosuz bluetooth kulaklık']'.</msg>
-<status status="PASS" starttime="20211226 12:31:00.342" endtime="20211226 12:31:00.467"/>
+<msg timestamp="20211226 12:36:07.017" level="INFO">Clicking element '//android.widget.TextView[@text='kablosuz bluetooth kulaklık']'.</msg>
+<status status="PASS" starttime="20211226 12:36:07.015" endtime="20211226 12:36:07.148"/>
 </kw>
-<status status="PASS" starttime="20211226 12:30:59.151" endtime="20211226 12:31:00.467"/>
+<status status="PASS" starttime="20211226 12:36:05.917" endtime="20211226 12:36:07.148"/>
 </kw>
-<status status="PASS" starttime="20211226 12:30:55.355" endtime="20211226 12:31:00.467"/>
+<status status="PASS" starttime="20211226 12:36:02.234" endtime="20211226 12:36:07.148"/>
 </kw>
 <kw name="Click Filter Button" library="homePageActions">
 <kw name="Wait And Click" library="baseTest">
@@ -106,17 +106,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${selector}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20211226 12:31:00.468" endtime="20211226 12:31:02.774"/>
+<status status="PASS" starttime="20211226 12:36:07.149" endtime="20211226 12:36:09.280"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${selector}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211226 12:31:02.776" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/tv_product_list_options_bar_filter'.</msg>
-<status status="PASS" starttime="20211226 12:31:02.774" endtime="20211226 12:31:02.883"/>
+<msg timestamp="20211226 12:36:09.281" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/tv_product_list_options_bar_filter'.</msg>
+<status status="PASS" starttime="20211226 12:36:09.280" endtime="20211226 12:36:10.791"/>
 </kw>
-<status status="PASS" starttime="20211226 12:31:00.468" endtime="20211226 12:31:02.883"/>
+<status status="PASS" starttime="20211226 12:36:07.149" endtime="20211226 12:36:10.792"/>
 </kw>
-<status status="PASS" starttime="20211226 12:31:00.467" endtime="20211226 12:31:02.883"/>
+<status status="PASS" starttime="20211226 12:36:07.149" endtime="20211226 12:36:10.792"/>
 </kw>
 <kw name="Select Filter" library="filterPageActions">
 <arg>Marka</arg>
@@ -124,13 +124,13 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${FILTER_PAGE_TITLE}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20211226 12:31:02.884" endtime="20211226 12:31:04.302"/>
+<status status="PASS" starttime="20211226 12:36:10.792" endtime="20211226 12:36:10.880"/>
 </kw>
 <kw name="Wait Until Page Contains" library="AppiumLibrary">
 <arg>${SHOW_PRODUCT_BTN}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until `text` appears on current page.</doc>
-<status status="PASS" starttime="20211226 12:31:04.302" endtime="20211226 12:31:04.355"/>
+<status status="PASS" starttime="20211226 12:36:10.880" endtime="20211226 12:36:10.930"/>
 </kw>
 <kw name="Wait And Click" library="baseTest">
 <arg>//android.widget.TextView[@text='${filterName}']</arg>
@@ -138,17 +138,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${selector}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20211226 12:31:04.355" endtime="20211226 12:31:04.428"/>
+<status status="PASS" starttime="20211226 12:36:10.930" endtime="20211226 12:36:10.994"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${selector}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211226 12:31:04.430" level="INFO">Clicking element '//android.widget.TextView[@text='Marka']'.</msg>
-<status status="PASS" starttime="20211226 12:31:04.428" endtime="20211226 12:31:04.535"/>
+<msg timestamp="20211226 12:36:10.996" level="INFO">Clicking element '//android.widget.TextView[@text='Marka']'.</msg>
+<status status="PASS" starttime="20211226 12:36:10.994" endtime="20211226 12:36:11.082"/>
 </kw>
-<status status="PASS" starttime="20211226 12:31:04.355" endtime="20211226 12:31:04.536"/>
+<status status="PASS" starttime="20211226 12:36:10.930" endtime="20211226 12:36:11.082"/>
 </kw>
-<status status="PASS" starttime="20211226 12:31:02.883" endtime="20211226 12:31:04.536"/>
+<status status="PASS" starttime="20211226 12:36:10.792" endtime="20211226 12:36:11.083"/>
 </kw>
 <kw name="Input Filter Text" library="filterPageActions">
 <arg>JBL</arg>
@@ -156,7 +156,425 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${SEARCH_TXT}</arg>
 <arg>timeout=30</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20211226 12:31:04.536" endtime="20211226 12:31:05.749"/>
+<status status="PASS" starttime="20211226 12:36:11.083" endtime="20211226 12:36:12.343"/>
 </kw>
 <kw name="Wait And Click" library="baseTest">
 <arg>${SEARCH_TXT}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:12.343" endtime="20211226 12:36:12.442"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:12.443" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/search_src_text'.</msg>
+<status status="PASS" starttime="20211226 12:36:12.442" endtime="20211226 12:36:13.651"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:12.343" endtime="20211226 12:36:13.651"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${SEARCH_TXT}</arg>
+<arg>${filterText}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:13.653" level="INFO">Typing text 'JBL' into text field 'com.pozitron.hepsiburada:id/search_src_text'</msg>
+<status status="PASS" starttime="20211226 12:36:13.651" endtime="20211226 12:36:13.824"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:11.083" endtime="20211226 12:36:13.824"/>
+</kw>
+<kw name="Select Filter Result" library="filterPageActions">
+<arg>JBL</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${APPLY_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:13.825" endtime="20211226 12:36:14.577"/>
+</kw>
+<kw name="Wait And Click" library="baseTest">
+<arg>//android.widget.TextView[@text='${filterResultText}']</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:14.578" endtime="20211226 12:36:14.639"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:14.641" level="INFO">Clicking element '//android.widget.TextView[@text='JBL']'.</msg>
+<status status="PASS" starttime="20211226 12:36:14.639" endtime="20211226 12:36:14.767"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:14.577" endtime="20211226 12:36:14.767"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:13.825" endtime="20211226 12:36:14.767"/>
+</kw>
+<kw name="Click Apply Button" library="filterPageActions">
+<kw name="Wait And Click" library="baseTest">
+<arg>${APPLY_BTN}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:14.768" endtime="20211226 12:36:15.489"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:15.491" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/btn_filters_apply'.</msg>
+<status status="PASS" starttime="20211226 12:36:15.489" endtime="20211226 12:36:15.616"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:14.768" endtime="20211226 12:36:15.616"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:14.767" endtime="20211226 12:36:15.616"/>
+</kw>
+<kw name="Select Filter" library="filterPageActions">
+<arg>Renk</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${FILTER_PAGE_TITLE}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:15.617" endtime="20211226 12:36:15.727"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${SHOW_PRODUCT_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:15.727" endtime="20211226 12:36:16.985"/>
+</kw>
+<kw name="Wait And Click" library="baseTest">
+<arg>//android.widget.TextView[@text='${filterName}']</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:16.986" endtime="20211226 12:36:17.043"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:17.045" level="INFO">Clicking element '//android.widget.TextView[@text='Renk']'.</msg>
+<status status="PASS" starttime="20211226 12:36:17.043" endtime="20211226 12:36:17.166"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:16.985" endtime="20211226 12:36:17.166"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:15.616" endtime="20211226 12:36:17.166"/>
+</kw>
+<kw name="Select Filter Result" library="filterPageActions">
+<arg>Siyah</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${APPLY_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:17.167" endtime="20211226 12:36:18.382"/>
+</kw>
+<kw name="Wait And Click" library="baseTest">
+<arg>//android.widget.TextView[@text='${filterResultText}']</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:18.383" endtime="20211226 12:36:18.444"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:18.446" level="INFO">Clicking element '//android.widget.TextView[@text='Siyah']'.</msg>
+<status status="PASS" starttime="20211226 12:36:18.444" endtime="20211226 12:36:18.616"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:18.383" endtime="20211226 12:36:18.616"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:17.167" endtime="20211226 12:36:18.616"/>
+</kw>
+<kw name="Click Apply Button" library="filterPageActions">
+<kw name="Wait And Click" library="baseTest">
+<arg>${APPLY_BTN}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:18.617" endtime="20211226 12:36:19.225"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:19.228" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/btn_filters_apply'.</msg>
+<status status="PASS" starttime="20211226 12:36:19.226" endtime="20211226 12:36:19.334"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:18.617" endtime="20211226 12:36:19.334"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:18.616" endtime="20211226 12:36:19.334"/>
+</kw>
+<kw name="Select Filter" library="filterPageActions">
+<arg>Fiyat Aralığı</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${FILTER_PAGE_TITLE}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:19.335" endtime="20211226 12:36:19.483"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${SHOW_PRODUCT_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:19.483" endtime="20211226 12:36:20.627"/>
+</kw>
+<kw name="Wait And Click" library="baseTest">
+<arg>//android.widget.TextView[@text='${filterName}']</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:20.628" endtime="20211226 12:36:20.736"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:20.738" level="INFO">Clicking element '//android.widget.TextView[@text='Fiyat Aralığı']'.</msg>
+<status status="PASS" starttime="20211226 12:36:20.736" endtime="20211226 12:36:20.865"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:20.627" endtime="20211226 12:36:20.866"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:19.334" endtime="20211226 12:36:20.866"/>
+</kw>
+<kw name="Select Filter Result" library="filterPageActions">
+<arg>500 - 750 TL</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${APPLY_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:20.867" endtime="20211226 12:36:22.178"/>
+</kw>
+<kw name="Wait And Click" library="baseTest">
+<arg>//android.widget.TextView[@text='${filterResultText}']</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:22.178" endtime="20211226 12:36:22.345"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:22.348" level="INFO">Clicking element '//android.widget.TextView[@text='500 - 750 TL']'.</msg>
+<status status="PASS" starttime="20211226 12:36:22.345" endtime="20211226 12:36:22.605"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:22.178" endtime="20211226 12:36:22.605"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:20.866" endtime="20211226 12:36:22.605"/>
+</kw>
+<kw name="Click Apply Button" library="filterPageActions">
+<kw name="Wait And Click" library="baseTest">
+<arg>${APPLY_BTN}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:22.606" endtime="20211226 12:36:23.226"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:23.229" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/btn_filters_apply'.</msg>
+<status status="PASS" starttime="20211226 12:36:23.227" endtime="20211226 12:36:23.368"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:22.606" endtime="20211226 12:36:23.368"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:22.606" endtime="20211226 12:36:23.368"/>
+</kw>
+<kw name="Selected Filters Check" library="filterPageActions">
+<arg>Marka</arg>
+<arg>JBL</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${SHOW_PRODUCT_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:23.369" endtime="20211226 12:36:24.777"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>//android.widget.TextView[@text='${filterName}']</arg>
+<arg>timeout=30</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:24.777" endtime="20211226 12:36:24.890"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>//android.widget.TextView[@text='${filterText}']</arg>
+<arg>timeout=30</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:24.890" endtime="20211226 12:36:25.038"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:23.369" endtime="20211226 12:36:25.038"/>
+</kw>
+<kw name="Selected Filters Check" library="filterPageActions">
+<arg>Renk</arg>
+<arg>Siyah</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${SHOW_PRODUCT_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:25.039" endtime="20211226 12:36:25.127"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>//android.widget.TextView[@text='${filterName}']</arg>
+<arg>timeout=30</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:25.127" endtime="20211226 12:36:25.236"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>//android.widget.TextView[@text='${filterText}']</arg>
+<arg>timeout=30</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:25.236" endtime="20211226 12:36:25.337"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:25.038" endtime="20211226 12:36:25.337"/>
+</kw>
+<kw name="Selected Filters Check" library="filterPageActions">
+<arg>Fiyat Aralığı</arg>
+<arg>500 - 750 TL</arg>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${SHOW_PRODUCT_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:25.338" endtime="20211226 12:36:25.428"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>//android.widget.TextView[@text='${filterName}']</arg>
+<arg>timeout=30</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:25.428" endtime="20211226 12:36:25.539"/>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<arg>//android.widget.TextView[@text='${filterText}']</arg>
+<arg>timeout=30</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:25.539" endtime="20211226 12:36:25.635"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:25.338" endtime="20211226 12:36:25.635"/>
+</kw>
+<kw name="Click Show Product Button" library="filterPageActions">
+<kw name="Wait And Click" library="baseTest">
+<arg>${SHOW_PRODUCT_BTN}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:25.635" endtime="20211226 12:36:25.687"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:25.688" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/btn_filters_main_close'.</msg>
+<status status="PASS" starttime="20211226 12:36:25.687" endtime="20211226 12:36:25.766"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:25.635" endtime="20211226 12:36:25.766"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:25.635" endtime="20211226 12:36:25.766"/>
+</kw>
+<kw name="Select Product From Result List" library="homePageActions">
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>${FILTER_BTN}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20211226 12:36:25.767" endtime="20211226 12:36:29.478"/>
+</kw>
+<kw name="Wait And Click" library="baseTest">
+<arg>${PRODUCT_RESULT_LST}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:29.478" endtime="20211226 12:36:29.543"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:36:29.544" level="INFO">Clicking element '//android.widget.ImageView[@content-desc="ürün fotoğrafı"][1]'.</msg>
+<status status="PASS" starttime="20211226 12:36:29.543" endtime="20211226 12:36:29.716"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:29.478" endtime="20211226 12:36:29.716"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:25.766" endtime="20211226 12:36:29.716"/>
+</kw>
+<kw name="Click Add To Cart Button" library="productPageActions">
+<kw name="Wait And Click" library="baseTest">
+<arg>${ADD_TO_CART_BTN}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:36:29.717" endtime="20211226 12:37:00.740"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:37:00.742" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/product_detail_add_to_cart_text'.</msg>
+<status status="PASS" starttime="20211226 12:37:00.740" endtime="20211226 12:37:33.578"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:29.717" endtime="20211226 12:37:33.578"/>
+</kw>
+<status status="PASS" starttime="20211226 12:36:29.716" endtime="20211226 12:37:33.578"/>
+</kw>
+<kw name="Check Add To Cart Message" library="productPageActions">
+<arg>Ürün sepetinizde</arg>
+<kw name="Element Text Should Be" library="AppiumLibrary">
+<arg>${ADD_TO_CART_MSG}</arg>
+<arg>${msg}</arg>
+<arg>timeout=30</arg>
+<doc>Verifies element identified by ``locator`` exactly contains text ``expected``.</doc>
+<msg timestamp="20211226 12:37:33.582" level="INFO">Verifying element 'com.pozitron.hepsiburada:id/productSuccesTxt' contains exactly text 'Ürün sepetinizde'.</msg>
+<status status="PASS" starttime="20211226 12:37:33.579" endtime="20211226 12:37:34.070"/>
+</kw>
+<status status="PASS" starttime="20211226 12:37:33.579" endtime="20211226 12:37:34.070"/>
+</kw>
+<kw name="Click Go To Basket Button" library="productPageActions">
+<kw name="Wait And Click" library="baseTest">
+<arg>${GO_TO_BASKET_BTN}</arg>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${selector}</arg>
+<arg>timeout=30</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:37:34.071" endtime="20211226 12:37:34.218"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${selector}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211226 12:37:34.220" level="INFO">Clicking element 'com.pozitron.hepsiburada:id/goBasketTxt'.</msg>
+<status status="PASS" starttime="20211226 12:37:34.218" endtime="20211226 12:37:34.670"/>
+</kw>
+<status status="PASS" starttime="20211226 12:37:34.071" endtime="20211226 12:37:34.670"/>
+</kw>
+<status status="PASS" starttime="20211226 12:37:34.070" endtime="20211226 12:37:34.670"/>
+</kw>
+<kw name="Check Basket Page Is Open" library="basketPageActions">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>${BASKET_PAGE}</arg>
+<arg>timeout=30s</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20211226 12:37:34.671" endtime="20211226 12:37:36.411"/>
+</kw>
+<status status="PASS" starttime="20211226 12:37:34.671" endtime="20211226 12:37:36.411"/>
+</kw>
+<kw name="Close App" library="baseTest" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" starttime="20211226 12:37:36.411" endtime="20211226 12:37:36.774"/>
+</kw>
+<status status="PASS" starttime="20211226 12:37:36.411" endtime="20211226 12:37:36.774"/>
+</kw>
+<status status="PASS" starttime="20211226 12:35:29.888" endtime="20211226 12:37:36.774"/>
+</test>
+<status status="PASS" starttime="20211226 12:35:29.731" endtime="20211226 12:37:36.775"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testCase1">testCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
