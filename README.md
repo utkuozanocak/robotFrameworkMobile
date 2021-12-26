@@ -3,7 +3,9 @@
 ## Test Koşumu
 
 -appium, terminal'den ayağa kaldırılır,
+
 -android studio dan bir adet android emulator ayağa kaldırılır,
+
 -vscode terminal üzerinden python3 -m robot -d Output TestCases/testCase1.robot komutu çalıştırılır.
 
 ## APK
