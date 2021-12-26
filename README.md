@@ -2,25 +2,25 @@
 
 ## Test Koşumu
 
--appium, terminal'den ayağa kaldırılır,
+- appium, terminal'den ayağa kaldırılır,
 
--android studio dan bir adet android emulator ayağa kaldırılır,
+- android studio dan bir adet android emulator ayağa kaldırılır,
 
--vscode terminal üzerinden python3 -m robot -d Output TestCases/testCase1.robot komutu çalıştırılır.
+- vscode terminal üzerinden python3 -m robot -d Output TestCases/testCase1.robot komutu çalıştırılır.
 
 ## APK
 
-/App altında bulunmaktadır.
+- /App altında bulunmaktadır.
 
 ## POM
 
--Locators PageObjects altında bulunmakradır.
+- Locators PageObjects altında bulunmakradır.
 
--Sayfalar içerisinde yapılan işlemler PageActions altında bulunmaktadır.
+- Sayfalar içerisinde yapılan işlemler PageActions altında bulunmaktadır.
 
--Test case TestCases altında bulunmaktadır.
+- Test case TestCases altında bulunmaktadır.
 
--/BaseLibrary/baseTest.robot altında, Setup, TearDown işlemleri ve ortak kullanılabilecek özel methodlar bulunmaktadır.
+- /BaseLibrary/baseTest.robot altında, Setup, TearDown işlemleri ve ortak kullanılabilecek özel methodlar bulunmaktadır.
 
 ## Reports
 
